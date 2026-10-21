@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --port 3000",
+    "prebuild": "npm --prefix ../.. run setup",
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit"

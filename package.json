@@ -11,7 +11,7 @@
     "setup": "npm run build -w @auron/config && npm run build -w @auron/sdk",
     "predev": "npm run setup",
     "dev": "npm run dev -w @auron/web",
-    "build": "npm run setup && npm run build -w @auron/web",
+    "build": "npm run build -w @auron/web",
     "lint": "npm run lint -w @auron/config && npm run lint -w @auron/sdk && npm run lint -w @auron/web",
     "test": "npm run test -w @auron/contracts --if-present",
     "contracts:build": "npm run build -w @auron/contracts",
